@@ -1,8 +1,8 @@
 body{                                        /* CSS to style body of document, source- W3schools */
-	background-color: #F0F8FF;
+	background-color:white;
 	margin-left:45px;
 	margin-right:78px;
-    font-family: Times New Roman, sand-serif;  /* font-family of body element, source- W3schools */
+        font-family: Times New Roman, sans-serif;  /* font-family of body element, source- W3schools */
 	font-size:20px;                          /* CSS to change font size in body element, source- W3schools */
 	color: Black;
 	border:2px solid;
