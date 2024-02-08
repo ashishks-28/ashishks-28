@@ -2,25 +2,25 @@ body{                                        /* CSS to style body of document, s
 	background-color:#FFFFFF;
 	margin-left:45px;
 	margin-right:78px;
-        font-family: Times New Roman, sans-serif;  /* font-family of body element, source- W3schools */
-	font-size:20px;                          /* CSS to change font size in body element, source- W3schools */
+    font-family:Times New Roman, sans-serif;
+	font-size:21px;                          /* CSS to change font size in body element, source- W3schools */
 	color: Black;
 	border:2px solid;
 	padding:30px;
 }
 h1{ margin-top: 50px;                        /* CSS to style h1 of document, source- W3schools */
-    color: rgb(219, 17, 17);
+    color: #2D9596;
 	margin-left: 45px;
 	margin-right:100px; 
-    font-family: Algerian;                   /* CSS to style font type of h1, source- W3schools */
-    margin-bottom: 10px;
+    font-family: Times New Roman, sans-serif;                   /* CSS to style font type of h1, source- W3schools */
+    margin-bottom: 25px;
 	text-align: Center;
 	font-size: 50px;                         /* CSS to modify font size of h1 in document, source- W3schools */
 } 
 
 #MyResume {                                 /* CSS to style id attribute of document, source- W3schools */
     color: Blue;
-    font-family: Baguet Script;
+    font-family: Times New Roman, sans-serif;
     margin-bottom: 10px;
 	text-align: Center;
 	font-size: 25px;
@@ -30,15 +30,16 @@ div{
 	Background-color:rgb(207, 194, 194);      /* CSS to style <div> block element of document, source- W3schools */
 	width:97%;
 	border: 1px Black;
-	padding: 10px;
-	margin: 20px;
+	padding: 3px;
+	margin: 15px;
+	margin-top:30px;
 }
 
 h2{
-	color:Blue;                                 /* CSS to style h2 of document, source- W3schools */
+	color:Black;                                 /* CSS to style h2 of document, source- W3schools */
 	margin-left: 45px;
 	margin-right:100px;
-    font-family: Times New Roman, sand-serif;
+    font-family: Times New Roman, sans-serif;
     margin-bottom:10px;
 	font-size:25px;                             /* modifies font size of h2 in document, source- W3schools */
 }
@@ -47,8 +48,8 @@ p{
 	color:Black;                               /* CSS to style <p> element of document, source- W3schools */
 	margin-left: 45px;
 	margin-right:55px;
-	font-family: Times New Roman, sand-serif;
-	font-size:20px;
+	font-family: Times New Roman, sans-serif;
+	font-size:21px;
 	text-align: justify;                        /* aligns the text in <p> element of document, source- W3schools */
 }
 
@@ -56,7 +57,7 @@ h4{
 	color:Black;                               /* CSS to style h4 of document, source- W3schools */
 	margin-left: 45px;
 	margin-right:100px;
-    font-family: Times New Roman, sand-serif;
+    font-family: Times New Roman, sans-serif;
     margin-bottom:10px;
 }
 
@@ -83,3 +84,12 @@ nav {                         /* CSS to style nav bar in document, source- W3sch
   text-align: center;
   border: 3px solid Black;
 }
+
+@media (min-width: 768px) {
+    nav {
+      width: 20%;
+      height: 270vh;
+    }
+
+
+	
