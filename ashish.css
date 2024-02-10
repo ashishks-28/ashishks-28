@@ -1,21 +1,23 @@
-body{                                        /* CSS to style body of document, source- W3schools */
+/* CSS to style body of document, source- W3schools */
+body{                                        
 	background-color:#FFFFFF;
 	margin-left:45px;
 	margin-right:78px;
     font-family:Times New Roman, sans-serif;
-	font-size:21px;                          /* CSS to change font size in body element, source- W3schools */
+	font-size:21px;                          
 	color: Black;
 	border:2px solid;
 	padding:30px;
 }
-h1{ margin-top: 50px;                        /* CSS to style h1 of document, source- W3schools */
-    color: #2D9596;
-	margin-left: 45px;
+ /* CSS to change font size in body element, source- W3schools */
+h1{ margin-top: 30px;                        /* CSS to style h1 of document, source- W3schools */
+    color: #8B008B;
+	margin-left: 50px;
 	margin-right:100px; 
     font-family: Times New Roman, sans-serif;                   /* CSS to style font type of h1, source- W3schools */
     margin-bottom: 25px;
 	text-align: Center;
-	font-size: 50px;                         /* CSS to modify font size of h1 in document, source- W3schools */
+	font-size: 60px;                         /* CSS to modify font size of h1 in document, source- W3schools */
 } 
 
 #MyResume {                                 /* CSS to style id attribute of document, source- W3schools */
@@ -27,7 +29,7 @@ h1{ margin-top: 50px;                        /* CSS to style h1 of document, sou
 }
 
 div{
-	Background-color:rgb(207, 194, 194);      /* CSS to style <div> block element of document, source- W3schools */
+	Background-color:LightGray;      /* CSS to style <div> block element of document, source- W3schools */
 	width:97%;
 	border: 1px Black;
 	padding: 3px;
@@ -77,15 +79,22 @@ nav {                         /* CSS to style nav bar in document, source- W3sch
 	width: 100%;
 }
 
-.button {                                 /* CSS to style class attribute in document, source- W3schools */
+.button1 {                                 /* CSS to style class attribute in document, source- W3schools */
 	background-color: white; 
   color: black; 
   padding:10px 18px;
   text-align: center;
   border: 3px solid Black;
 }
-
-
-
-
-	
+.button {                             /* Creates a Button and styles it in the HTML */ /* Content Reffered from W3 Schools */
+  background-color: LightGray;
+  border-radius:15px;
+  color: Black;
+  padding: 13px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
