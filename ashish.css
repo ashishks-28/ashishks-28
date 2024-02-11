@@ -66,7 +66,7 @@ h4{
 table, td, th {                          /* CSS to style table in document, source- W3schools */
   border: 1px solid Black;      
   margin-left: 45px;
-  text-align: center;                 /* aligns the text in center doc, source- W3schools */                    
+  text-align: center;                  /* aligns the text in center doc, source- W3schools */
 }
 table{
 	width: 90%;
