@@ -67,10 +67,10 @@ table, td, th {                          /* CSS to style table in document, sour
   border: 1px solid Black;      
   margin-left: 45px;
   text-align: center;
-  width: 100%;                          /* aligns the text in center doc, source- W3schools */
+  width: 90%;                          /* aligns the text in center doc, source- W3schools */
 }
 table{
-	width: 100%;
+	width: 900%;
 	border-collapse: collapse;
 }
 	
